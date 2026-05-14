@@ -1,0 +1,14 @@
+# --- Frontend (React) ---
+**/node_modules/
+**/dist/
+**/build/
+.env
+.env.local
+
+# --- IDE ve Sistem ---
+.vscode/
+Thumbs.db
+# --- Visual Studio Kullanıcı Ayarları ---
+*.user
+*.userosscache
+*.sln.docstates
