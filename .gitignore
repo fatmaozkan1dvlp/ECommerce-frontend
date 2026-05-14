@@ -12,3 +12,10 @@ Thumbs.db
 *.user
 *.userosscache
 *.sln.docstates
+[Oo]bj/
+.vs/
+*.db
+
+*.user
+*.db
+*.sln.docstates
