@@ -1,17 +1,83 @@
-# React + Vite
+# 🛍️ E-Commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React ve Tailwind CSS ile geliştirilmiş modern e-ticaret arayüzü.
+[E-Commerce API](https://github.com/fatmaozkan1dvlp/ecommerce-api) ile çalışır.
 
-Currently, two official plugins are available:
+## 🚀 Teknolojiler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 18** — UI framework
+- **Vite** — Build tool
+- **Tailwind CSS** — Styling
+- **Axios** — HTTP client
+- **React Router v6** — Routing
+- **React Hot Toast** — Bildirimler
+- **React Helmet Async** — SEO
+- **Lucide React** — İkonlar
 
-## React Compiler
+## 📌 Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🛒 Kullanıcı Tarafı
+- Ürün listeleme, filtreleme ve arama
+- Slug tabanlı SEO dostu URL'ler
+- Ürün detay sayfası
+- Sepet yönetimi
+- Sipariş oluşturma (adres formu)
+- Sipariş takibi ve iptal
+- Favori listesi
+- Profil yönetimi
+- Giriş / Kayıt
 
-## Expanding the ESLint configuration
+### 🔧 Admin Paneli
+- Dashboard (istatistikler, son siparişler)
+- Ürün yönetimi (ekle, düzenle, arşivle)
+- Kategori yönetimi
+- Sipariş yönetimi (durum güncelleme)
+- Müşteri listesi
+- Arşiv yönetimi
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# ECommerce-frontend
+### 🔐 Güvenlik
+- JWT tabanlı authentication
+- Admin/Kullanıcı token ayrımı (sessionStorage/localStorage)
+- Route koruması (AuthRoute, AdminRoute)
+- Token expire kontrolü
+
+## ⚙️ Kurulum
+
+### Gereksinimler
+- Node.js 18+
+- [E-Commerce API](https://github.com/fatmaozkan1dvlp/ecommerce-api) çalışıyor olmalı
+
+### 1. Repoyu klonla
+```bash
+git clone https://github.com/fatmaozkan1dvlp/ecommerce-frontend.git
+cd ecommerce-frontend
+```
+
+### 2. Bağımlılıkları yükle
+```bash
+npm install
+```
+
+### 3. `.env` dosyası oluştur
+```env
+VITE_API_URL=APIURL
+```
+
+### 4. Çalıştır
+```bash
+npm run dev
+```
+
+Uygulama `http://localhost:5173` adresinde çalışır.
+
+## 🖥️ Ekran Görüntüleri
+
+> Admin Panel, Ana Sayfa, Ürün Detay, Sepet ekran görüntüleri eklenecek.
+
+## 🔗 İlgili Repo
+
+- **Backend:** [ecommerce-api](https://github.com/fatmaozkan1dvlp/ecommerce-api)
+
+## 👩‍💻 Geliştirici
+
+Bu proje fullstack geliştirme pratiği amacıyla yapılmıştır.
